@@ -1,0 +1,7 @@
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), url('/fonts/NotoSans-Regular.woff2') format('woff2');
+}

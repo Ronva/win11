@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --bg-primary: #f9f9f9;
+  --bg-secondary: #f6f6f6;
+  --text-color: #1c1c1a;
+  --text-desktop: #ffffff;
+  --accent: #275db2;
+
+  /* border radius */
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-lg: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* colors */
+    --bg-primary: #272727;
+    --bg-secondary: #2c2c2c;
+    --bg-tertiary: #393939;
+    --text-color: #ffffff;
+    --accent: #7dcafa;
+  }
+}
